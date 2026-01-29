@@ -1,9 +1,10 @@
 # journal
->> ##learning journal
+>> ## learning journal
 # January 22:
 >>study how to use basic github instruct
 # January 23:
-## watch:https://www.youtube.com/watch?v=VMj-3S1tku0&list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ
+## watch:
+	https://www.youtube.com/watch?v=VMj-3S1tku0&list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ
 >>> ## note:
 >>>>Forward pass,backward pass,the loss function, and epochs are closely related concepts in training a neural network.
 >>>>**Loss function**: Define the loss funtion and the model first; it specifies what "error" means and what the model should minimize.
@@ -13,11 +14,14 @@
 >>>>2. **Backward pass**：從 loss 開始沿計算圖反向套用鏈鎖律，算出 **每個參數的梯度**（必要時累加），再用梯度下降更新參數。
 >>>>3. **Iteration vs Epoch**：forward/backward/update 是每個 batch 重複做；epoch 是訓練集完整走過一次。
 
-#January 27:
-> ##NMS threshold 
+# January 27:
+> ## NMS threshold 
 >>NMS uses an IoU threshold: if two boxes overlap with IoU greater than the threshold, the one with the lower score is suppressed
-> ##confidence threshold
+> ## confidence threshold
 >>A confidence threshold filters out low-score detections; it reflects how likely the model thinks an object of a given class is present, but it does not guarantee precise box localization.
+
+# January 28
+>Perceptron
 
 
 
